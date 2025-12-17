@@ -1,6 +1,6 @@
 {{ config(
     materialized='table',
-    schema='gold'
+    schema='bi'
 ) }}
 
 with date_spine as (
